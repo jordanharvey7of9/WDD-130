@@ -1,19 +1,63 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="styles/styles.css">
-    </head>
-    <body>
-        <div>
-            <img src="images/w05_circles.jpg" alt="circles" width="100%">
-        </div>
-        <div>
-            <img src="images/w05_ice_image_desk.jpg" alt="desk" class="center">
-            <img src="images/w05_ice_image_graphic.png" alt="graphic" class="center">
-            <img src="images/w05_ice_image_person.jpg" alt="person" class="center">
-        </div>
-    </body>
-    </html>
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="fstyle.css">
+<style>
+    .grid-container {
+    display: grid;
+    gap: 10px;
+    /* background-color: #2196F3; */
+    /* border-color: pink; */
+    padding: 10px;
+    }
+
+    .grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    }
+
+    .item1 {
+        grid-row: 1 / span 2;
+        grid-column: 1;
+    }
+
+    .item2 {
+        grid-row: 1;
+        grid-column: 1 / span 2;
+        font-size: 20em;
+        z-index: 2;
+    }
+
+    .item3 {
+        grid-row: 2;
+        grid-column: 2;
+        z-index: 2;
+        font-size: 10em;
+        color: maroon;
+        vertical-align: text-bottom;
+    }
+
+    .item4 {
+        background-color: darkgray;
+        grid-column: 2;
+        grid-row: 1 / span 2;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="grid-container">    
+  <div class="grid-item item1"><img src="images/w06_cherries.png" alt="cherries"></div>
+  <div class="grid-item item2"> Tart & Sweet</div>
+  <div class="grid-item item3">Cherries</div>
+  <div class="grid-item item4"></div>  
+</div>
+
+</body>
+</html>
+
+
+
