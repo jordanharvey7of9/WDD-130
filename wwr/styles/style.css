@@ -6,7 +6,7 @@
 
 }
 
-#hero-msg h1, #hero-msg h4, .button-box, main section{
+#hero-msg h1, #hero-msg h4, .button-box, main{
     text-align: center;
 }
 
@@ -147,7 +147,7 @@ footer .social img{
 }
 
 .rivers-card, .camping-card, .rapids-card{
-    margin: 200px 0;
+    width:100% 0;
 }
 
 .card-img{
@@ -192,7 +192,7 @@ nav{
 
 .home-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(10,1fr);
 
 }
 
