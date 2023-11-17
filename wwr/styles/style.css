@@ -231,6 +231,45 @@ nav{
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+
+/* Dates and Rates Page Styling */
+
+.schedules_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    column-gap: 1em;   
+}
+
+main h2{
+    color: darkcyan;
+}
+
+main p{
+    font-size: smaller;
+}
+
+main img{
+    width: 25%;
+    height: 40%;
+}
+
+.rates-title{
+    color: darkcyan;
+    font-family: 'Rock Salt', Times, serif;
+    font-size: 2.5em;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.prices-title{
+    text-align: center;
+    font-size: 1.5em;
+    color: cadetblue;
+}
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;

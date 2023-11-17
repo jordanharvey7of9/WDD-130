@@ -1,0 +1,31 @@
+.footer-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+body{
+    width: 33%;
+    text-align: center;
+    margin: auto;
+}
+footer{
+    background-color: rgb(55, 128, 201);
+    color: white;
+
+}
+
+body p{
+    overflow: visible;
+}
+
+h3{
+    color: rgb(55, 128, 201);
+}
+
+img{
+    width: 100%;
+}
+
+h1{
+    font-weight: 700;
+}
